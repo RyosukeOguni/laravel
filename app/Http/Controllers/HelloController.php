@@ -19,4 +19,8 @@ class HelloController extends Controller
         ];
         return view('hello.list',$data);
     }
+
+    public function attribute() {
+        return view('hello.getAttributeHTML');
+    }
 }

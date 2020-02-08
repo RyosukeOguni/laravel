@@ -19,3 +19,5 @@ Route::get('hello','HelloController@index');
 
 Route::get('hello/list','HelloController@list');
 
+Route::get('attribute','HelloController@attribute');
+
