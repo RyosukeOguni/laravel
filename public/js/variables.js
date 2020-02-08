@@ -1,12 +1,15 @@
-let nameList = ["松田","田中","中山","山本","本田"];
-nameList.forEach(name => {
-    console.log(name);
-});
-
-for(let name of nameList) {
-    console.log(name);
+function onH1ButtonClick() {
+    let headTitle = document.getElementById("headTitle");
+    console.log(headTitle);
 }
 
-for(let i = 0; i < nameList.length; i++) {
-    console.log(nameList[i]);
+function onH1TextButtonClick() {
+    let headTitle = document.getElementById("headTitle");
+    let headTitleText = headTitle.textContent;
+    console.log(headTitleText);
+}
+
+function onH1TextAltButtonClick() {
+    let headTitle = document.getElementById("headTitle");
+    headTitle.textContent = "idによる取得サンプル"
 }

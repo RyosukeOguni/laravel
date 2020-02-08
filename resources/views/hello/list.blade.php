@@ -9,7 +9,12 @@
 </head>
 
 <body>
+    <h1 id="headTitle">idによる要素取得</h1>
+    <button type="button" onclick="onH1ButtonClick()">h1要素の取得</button>
+    <button type="button" onclick="onH1TextButtonClick()">h1テキストの取得</button>
+    <button type="button" onclick="onH1TextAltButtonClick()">h1テキストの書換</button>
     <script type="text/javascript" src="{{ asset('js/variables.js') }}"> </script>
+
     <table class="table">
         <thead>
             <tr>
