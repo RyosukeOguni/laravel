@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>速習Laravel</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    {{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 
 <body>
-    <script type="text/javascript" src="{{ asset('js/helloworld.js') }}"> </script>
+    <script type="text/javascript" src="{{ asset('js/variables.js') }}"> </script>
     <table class="table">
         <thead>
             <tr>
