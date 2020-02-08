@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <script type="text/javascript" src="{{ asset('js/helloworld.js') }}"> </script>
     <table class="table">
         <thead>
             <tr>
