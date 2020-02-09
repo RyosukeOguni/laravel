@@ -22,5 +22,6 @@ Route::get('hello/list','HelloController@list');
 Route::get('attribute','HelloController@attribute');
 
 Route::get('editattribute','HelloController@editAttribute');
+Route::get('getattributeelemant','HelloController@getattributeelemant');
 
 

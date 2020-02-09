@@ -27,4 +27,7 @@ class HelloController extends Controller
     public function editAttribute() {
         return view('hello.editAttributeHTML');
     }
+    public function getattributeelemant() {
+        return view('hello.getAttributeElementHTML');
+    }
 }
