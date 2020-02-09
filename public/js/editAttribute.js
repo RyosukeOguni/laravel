@@ -1,6 +1,7 @@
 function onP2RedButtonClick() {
     let showText = document.getElementById("showText");
-    showText.setAttribute("class","redText");
+    // showText.setAttribute("class","redText");
+    showText.className = "redText";
 }
 
 function onP2DefaultButtonClick() {
