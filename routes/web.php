@@ -24,4 +24,6 @@ Route::get('attribute','HelloController@attribute');
 Route::get('editattribute','HelloController@editAttribute');
 Route::get('getattributeelemant','HelloController@getattributeelemant');
 
+Route::get('view/master','ViewController@master');
+
 
